@@ -20,14 +20,14 @@ export default function AdusInLawSuites() {
   return (
     <>
       <Seo
-        title="In-Law Suites & Cottages"
+        title="In-Law Cottages & ADUs"
         path="/services/in-law-suites-cottages"
         description="Private living space for family, guests, and future flexibility. VCS plans and builds detached ADUs, attached in-law suites, cottages, and multi-generational living spaces in NE Florida."
         image={`${company.website}/images/living-room.jpg`}
       />
 
       <PageHero
-        eyebrow="In-Law Suites & Cottages"
+        eyebrow="In-Law Cottages & ADUs"
         title="Private Living Space for Family, Guests, and Future Flexibility"
         intro="An ADU or in-law suite can create more room, more privacy, and a better long-term plan for your home and property. VCS helps you determine the right path before construction begins."
         image="/images/living-room.jpg"

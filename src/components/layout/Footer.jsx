@@ -5,11 +5,12 @@ import Button from '../ui/Button'
 
 const serviceLinks = [
   { label: 'Custom Homes', to: '/services/custom-homes' },
-  { label: 'Home Additions', to: '/services/room-additions' },
-  { label: 'In-Law Suites & Cottages', to: '/services/in-law-suites-cottages' },
-  { label: 'Whole Home Remodeling', to: '/services/major-home-remodeling' },
-  { label: 'Kitchen & Bathroom', to: '/services/kitchen-bathroom-remodeling' },
-  { label: 'Outdoor Living', to: '/services/outdoor-living' },
+  { label: 'Major Home Remodeling & Restoration', to: '/services/major-home-remodeling' },
+  { label: 'Room Additions', to: '/services/room-additions' },
+  { label: 'In-Law Cottages & ADUs', to: '/services/in-law-suites-cottages' },
+  { label: 'Metal Framed Homes', to: '/services/metal-home-construction' },
+  { label: 'Kitchen & Bathroom Remodeling', to: '/services/kitchen-bathroom-remodeling' },
+  { label: 'Outdoor Structures & Living', to: '/services/outdoor-living' },
 ]
 
 const companyLinks = [

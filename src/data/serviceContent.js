@@ -1,6 +1,6 @@
 export const serviceContent = {
   'metal-home-construction': {
-    title: 'Metal Home Construction',
+    title: 'Metal Framed Homes',
     hero: 'Steel-Framed Homes Built for Florida',
     subtitle:
       'Barndominiums, steel-framed homes, and custom metal buildings built for durability and flexibility',

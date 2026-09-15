@@ -58,10 +58,10 @@ export const mainNav = [
     to: '/services',
     children: [
       { label: 'Custom Homes', to: '/services/custom-homes' },
-      { label: 'Metal Home Construction', to: '/services/metal-home-construction' },
-      { label: 'In-Law Suites & Cottages', to: '/services/in-law-suites-cottages' },
-      { label: 'Room Additions', to: '/services/room-additions' },
       { label: 'Major Home Remodeling & Restoration', to: '/services/major-home-remodeling' },
+      { label: 'Room Additions', to: '/services/room-additions' },
+      { label: 'In-Law Cottages & ADUs', to: '/services/in-law-suites-cottages' },
+      { label: 'Metal Framed Homes', to: '/services/metal-home-construction' },
       { label: 'Kitchen & Bathroom Remodeling', to: '/services/kitchen-bathroom-remodeling' },
       { label: 'Outdoor Structures & Living', to: '/services/outdoor-living' },
     ],

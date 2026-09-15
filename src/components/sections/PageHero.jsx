@@ -1,12 +1,18 @@
 import { motion } from 'framer-motion'
 import Button from '../ui/Button'
 
-export default function PageHero({ eyebrow, title, intro, image = '/images/home-exterior.jpg', ctas = true }) {
+export default function PageHero({
+  eyebrow,
+  title,
+  intro,
+  image = '/images/home-exterior.jpg',
+  ctas = true,
+}) {
   return (
     <section className="relative flex min-h-[68vh] items-end overflow-hidden pb-16 pt-40">
       <div className="absolute inset-0">
         <img src={image} alt="" className="h-full w-full object-cover" />
-        
+
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/25" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
       </div>
