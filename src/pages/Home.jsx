@@ -8,6 +8,7 @@ import Testimonials from '../components/sections/home/Testimonials'
 import ShareSection from '../components/sections/home/ShareSection'
 import ResourceHub from '../components/sections/home/ResourceHub'
 import ServiceAreasSection from '../components/sections/ServiceAreasSection'
+import LeadPopup from '../components/LeadPopup'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <ShareSection />
       <ResourceHub />
       <ServiceAreasSection />
+      <LeadPopup />
     </>
   )
 }
