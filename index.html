@@ -9,6 +9,21 @@
       gtag('js', new Date());
     </script>
     <!-- End Google tag -->
+    <!-- Track clicks on phone and email links (sent to GA4 as phone_call_click / email_click) -->
+    <script>
+      document.addEventListener('click', function (e) {
+        var link = e.target.closest && e.target.closest('a[href^="tel:"], a[href^="mailto:"]');
+        if (!link) return;
+        var href = link.getAttribute('href');
+        var isPhone = href.indexOf('tel:') === 0;
+        gtag('event', isPhone ? 'phone_call_click' : 'email_click', {
+          link_url: href,
+          link_text: (link.textContent || '').trim().slice(0, 100),
+          page_path: location.pathname,
+          transport_type: 'beacon'
+        });
+      }, true);
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
